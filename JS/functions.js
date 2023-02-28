@@ -22,6 +22,7 @@ getRandomUser().then(persona => {
     }
   });
 
+//Experiencia Laboral
 getRandomUser().then(persona => {
     const experienciaLaboral = [
       {
@@ -58,6 +59,7 @@ getRandomUser().then(persona => {
     });
   });
 
+//Educacion
 getRandomUser().then(persona => {
     const educacion = [
         {
@@ -85,6 +87,7 @@ getRandomUser().then(persona => {
     });
 });
 
+//Habilidades e idiomas
 getRandomUser().then(persona => {
     const habilidades = [
         'Desarrollo web',
@@ -103,27 +106,29 @@ getRandomUser().then(persona => {
         li.textContent = habilidades;
         listaHabilidades.appendChild(li);
     });
-});
-
-getRandomUser().then(persona => {
+/*********** */
     const idiomas = [
-        {
-          idioma: 'Español',
-          nivel: 'Nativo'
-        },
-        {
-          idioma: 'Ingles',
-          nivel: 'Profesional'
-        }
-      ];
+      {
+        idioma: 'Español',
+        nivel: 'Nativo'
+      },
+      {
+        idioma: 'Ingles',
+        nivel: 'Profesional'
+      },
+      {
+        idioma: 'Aleman',
+        nivel: 'Medio'
+      }
+    ];
 
-    const listaIdiomas = document.getElementById('idiomas');
-    idiomas.forEach(idiomas => {
-        const li = document.createElement('li');
-        li.innerHTML = `
-          <h3>${idiomas.idioma}</h3>
-          <p>Nivel: ${idiomas.nivel}</p>
-        `;
-        listaIdiomas.appendChild(li);
-    });
+  const listaIdiomas = document.getElementById('idiomas');
+  idiomas.forEach(idiomas => {
+      const li = document.createElement('li');
+      li.innerHTML = `
+        <h3>${idiomas.idioma}</h3>
+        <p>Nivel: ${idiomas.nivel}</p>
+      `;
+      listaIdiomas.appendChild(li);
+  });
 });

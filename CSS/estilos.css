@@ -55,8 +55,8 @@ body {
 }
 
 .refSeleccionada , .navegacion a:hover {
-  background-color: #d5ffbc;
-  color: black;
+  background-color: midnightblue;
+  color: gold;
 }
 
 .navegacion ul {
