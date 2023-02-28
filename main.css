@@ -11,7 +11,7 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #fffdbc;
+  background-color: hwb(52 86% 0%);
   width: 250px;
 }
 
@@ -32,6 +32,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: hsl(244, 100%, 97%);
 }
 
 .navegacion {
@@ -75,11 +76,19 @@ body {
 }
 
 .links {
-  background-color: white;
   text-align: center;
 }
 
 .icono {
   width: 30px;
   height: 30px;
+}
+
+.iconoNav {
+  width: 30px;
+  height: 30px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 2px;
 }
