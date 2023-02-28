@@ -12,7 +12,8 @@ getRandomUser().then(persona => {
     document.getElementById('email').textContent = persona.email;
     document.getElementById('telefono').textContent = persona.cell;
     document.getElementById('ciudad').textContent = persona.location.city;
-    document.getElementById('id').textContent = persona.id.value;
+    document.getElementById('pais').textContent = persona.location.country;
+    document.getElementById('direccion').textContent = persona.location.street.number +" "+ persona.location.street.name;
 
     if(persona.gender=="male"){
         document.getElementById('genero').textContent = "Hombre"

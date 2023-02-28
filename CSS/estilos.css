@@ -54,7 +54,7 @@ body {
   padding: 6px 6px 6px;
 }
 
-.navegacion a:hover {
+.refSeleccionada , .navegacion a:hover {
   background-color: #d5ffbc;
   color: black;
 }
