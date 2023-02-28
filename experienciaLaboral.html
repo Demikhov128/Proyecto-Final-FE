@@ -4,28 +4,45 @@
 	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Experiencia laboral</title>
+	<title>Experiencia Laboral</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-	<header>
-		<h1>Experiencia laboral</h1>
-        <h2>Contenido</h2>
-		<nav>
-			<ul>
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="acercaDeMi.html">Acerca de mí</a></li>
-				<li><a href="educacion.html">Educación</a></li>
-				<li><a href="habilidades.html">Habilidades</a></li>
-			</ul>
-		</nav>
-	</header>
+	<div class="navegacion">
+		<div class="persona">
+			<img src="" alt="Imagen del usuario" id="imagenPerfil">
+			<h2><strong><span id="nombre"></span></strong></h2>
+		</div>
+		<ul>
+			<li><a href="acercaDeMi.html">Acerca de mí</a></li>
+			<li><a href="experienciaLaboral.html">Experiencia Laboral</a></li>
+			<li><a href="educacion.html">Educación</a></li>
+			<li><a href="habilidades.html">Habilidades</a></li>
+		</ul>
+	</div>
 	<main>
-        <h2>Experiencia laboral</h2>
-        <ul id="experiencia">
-        <!-- La lista se poblará dinámicamente -->
-        </ul>
+        <div class="informacion">
+			<h2>Experiencia laboral</h2>
+			<ul id="experiencia">
+			<!-- La lista se poblará dinámicamente -->
+			</ul>
+		</div>
 	</main>
+	<footer>
+		<div class="links">
+			<a href="">
+                <img src="https://cdn-icons-png.flaticon.com/512/3670/3670151.png" alt="Twitter Icon" class="icono">
+            </a>
+			<a href="">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook Icon" class="icono">
+            </a>
+			<a href="">
+                <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="Linkedin Icon" class="icono">
+            </a>
+			<p><strong>Número de Telefono:</strong> <span id="telefono"></span></p>
+			<p><strong>Correo Electronico:</strong> <span id="email"></span></p>
+		</div>
+	</footer>
     <script src="JS/functions.js"></script>
 </body>
 </html>

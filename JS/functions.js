@@ -49,6 +49,9 @@ getRandomUser().then(persona => {
       li.innerHTML = `
         <h3>${experienciaLaboral.empresa}</h3>
         <p>${experienciaLaboral.puesto} (${experienciaLaboral.inicio} - ${experienciaLaboral.fin})</p>
+        <h4>Nunc non lorem sem. Ut enim erat, feugiat non rutrum eu, sagittis iaculis massa. Morbi feugiat nisl 
+        ut fringilla cursus. Vivamus accumsan augue posuere, ultricies nisl vitae, varius ante. Aliquam 
+        suscipit arcu enim, viverra porta augue tincidunt et.</h4>
       `;
       listarExpLab.appendChild(li);
     });

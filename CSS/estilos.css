@@ -2,4 +2,84 @@ img {
     border-radius: 50%;
     height: 200px;
     width: 200px;
+    margin-left: 25px;
+    margin-top: 20px;
   }
+
+.persona {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fffdbc;
+  width: 250px;
+}
+
+.persona h2 {
+  text-align: center;
+}
+
+#perfil {
+  text-align: center;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navegacion {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: darkslategray;
+  width: 250px;
+  height: 100%;
+  overflow-x: hidden;
+  padding-top: 350px;
+}
+
+.navegacion a{
+  color: white;
+  display: block;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 6px 6px 6px;
+}
+
+.navegacion a:hover {
+  background-color: #d5ffbc;
+  color: black;
+}
+
+.navegacion ul {
+  list-style: none;
+  margin: 0;
+}
+
+.informacion {
+  margin-left: 300px;
+  margin-right: 400px;
+  margin-bottom: 200px;
+}
+
+.informacion h1,h2 {
+  text-align: center;
+}
+
+.links {
+  background-color: white;
+  text-align: center;
+}
+
+.icono {
+  width: 30px;
+  height: 30px;
+}

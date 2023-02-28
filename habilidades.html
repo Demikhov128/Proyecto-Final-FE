@@ -8,28 +8,45 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-	<header>
-		<h1>Habilidades</h1>
-        <h2>Contenido</h2>
-		<nav>
-			<ul>
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="acercaDeMi.html">Acerca de mí</a></li>
-				<li><a href="experienciaLaboral.html">Experiencia laboral</a></li>
-				<li><a href="educacion.html">Educación</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<h2>Habilidades técnicas</h2>
-        <ul id="habilidades">
-        <!-- La lista se poblará dinámicamente -->
-        </ul>
-		<h2>Idiomas</h2>
-		<ul id="idiomas">
-			<!-- La lista se poblará dinámicamente -->
+	<div class="navegacion">
+		<div class="persona">
+			<img src="" alt="Imagen del usuario" id="imagenPerfil">
+			<h2><strong><span id="nombre"></span></strong></h2>
+		</div>
+		<ul>
+			<li><a href="acercaDeMi.html">Acerca de mí</a></li>
+			<li><a href="experienciaLaboral.html">Experiencia Laboral</a></li>
+			<li><a href="educacion.html">Educación</a></li>
+			<li><a href="habilidades.html">Habilidades</a></li>
 		</ul>
+	</div>
+	<main>
+		<div class="informacion">
+			<h2>Habilidades técnicas</h2>
+			<ul id="habilidades">
+			<!-- La lista se poblará dinámicamente -->
+			</ul>
+			<h2>Idiomas</h2>
+			<ul id="idiomas">
+				<!-- La lista se poblará dinámicamente -->
+			</ul>
+		</div>
 	</main>
+	<footer>
+		<div class="links">
+			<a href="">
+                <img src="https://cdn-icons-png.flaticon.com/512/3670/3670151.png" alt="Twitter Icon" class="icono">
+            </a>
+			<a href="">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook Icon" class="icono">
+            </a>
+			<a href="">
+                <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="Linkedin Icon" class="icono">
+            </a>
+			<p><strong>Número de Telefono:</strong> <span id="telefono"></span></p>
+			<p><strong>Correo Electronico:</strong> <span id="email"></span></p>
+		</div>
+	</footer>
     <script src="JS/functions.js"></script>
 </body>
 </html>
